@@ -3,32 +3,33 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Script: {fileID: -2067402452, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AbiAZ+f/////AAABmUulsAHw2EeJl0g4/JBVUKROSVDENLH8uJLP+cnP03HvzJzwaec0bklucv27xt2swpoBSFhRbWRLWUefrfMesOmEdUtR+IJEoIywHUl2R9DVRw/q7n4eB0+hCIfanL8/TKzGWi3NjEnlxaQXh0WlR0uOliqj1CHJve2RSNob21mCPld5NW2bvSkcTuwIPYfENznj/b05FL6EtsHbRIck94V3NbR8xTiPxCR7xrtHyC3QZ8jafi27iHsYDkizgXdWImDyv8fbn51BwqdXcLFAorfiR1bTGchLdPy9J38aJ9PfzDi8trOc58fxoWfhkc4i2Hlpmm8BKZmWcZgPUAPk5Iui4C1cK/gpjsk3Mmpcv8iB
-    ufoLicenseKey: QVhRY2ZTUC8vLy8vQUFBQUtIcVZCbVJERDBGYnJ2dG9NT2hVcG9XTGNkR3hrT3QwQmVlRzFLUGt3c0JWdWluaGZtYzJOWFZhWGhCQ2d1WkNFT0hyQlF2cW1qbVpJNkdvMUZJNi9PN0gwMWx1aWErZ1dTMHJaMEJUOUJ5V05aaTlrUm53MUltaTBjS2hzUE5SZW9HV0Rjb0hWNUZwZGlGVm5tRmJDRTZiSkxzbS95T3ZxaUhxRzFTZHZlYzFsYXE5T2kydCswdlJybysweUZNQWl5ZG92cU54bGM5ajNmM2hIV2VEcTFQWVE1bUN5UktEZUFONDJmNFpJWkVhZlBDYTRwVjlDdmw0ZnJYWjhQdFBVM2Z0dE5Vd1R5RXYxZTB6UzhaM2p1T0dFcmxFbVlJc1h3dDVwbGRtdjJZNFBpWkZkSTF0WjZTTGdCdm8wdHFpaW11MWZ4Z0JpTm80UVdLSndyNVVOY04yR1BNWGVaTmpGNWFVYWlGNzRxdjY=
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QWU1RFpFNy8vLy8vQUFBQUtESzNlU0ZwM2tmVmo5UURINXNLWDBoRUZDTEJpVmlNdnNGQm5CSWtlSFNYVUZKRGlvcks0NXdWN3NjcXhtTjhkRGcrQWY0WlQ3MkVPclQwMEN1Z3pQS1VaL0l6cW1RdnBUOEYvcUJNdURRa3UrZ3NpME5jQUI5NlJycENvc0MwSUNVTjd1L1B4YXh1TDdUS3Z0SFBKa0JFU2VzanRrYjYvbkhXTFNmWmJLUXpHcHFmclhqTHR3cERnbzNqZUJucUpVR0dreVR0b0RxV2NOM3FZOVRzdXp6akVIS3VxWkxaU3BRa3dKTXJ6eUF4VC9pVCthUlloNG5qWUUyQ3FLdm9XekhzeEt6SVkzNVZlM2JrN2k2aHJMVERISXhwbitFZG5mYXZUWmVSZnhCQ0hqZFMyeldNbkRmb2thNTB6aXArbnlTa1RoNW9rSVdFaWRDT2RhSXFXaU5rWm1nbWZOcnMvK3g2Q0EyVjJjKzU=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
+    maxSimultaneousImageTargets: 4
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
     mirrorVideoBackground: 0
+    version: 7.2.24
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
     eyewearType: 0
     stereoFramework: 0
     seeThroughConfiguration: 0
-    viewerName: Generic Cardboard
-    viewerManufacturer: Vuforia
+    viewerName: 
+    viewerManufacturer: 
     useCustomViewer: 0
     customViewer:
       Version: 0
@@ -50,18 +51,19 @@ MonoBehaviour:
     matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 1
-    autoStartTracker: 1
-    trackingMode: 1
-    posePrediction: 1
-    modelCorrectionMode: 2
+    autoInitTracker: 0
+    autoStartTracker: 0
+    trackingMode: 0
+    posePrediction: 0
+    modelCorrectionMode: 0
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
+    fusionMode: 7
   smartTerrain:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
     deviceNameSetInEditor: 
-    flipHorizontally: 1
+    flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30
